@@ -1,0 +1,17 @@
+[package]
+name = "abstract_lef"
+version = "0.0.2"
+edition = "2021"
+authors = ["Rahul Kumar <rahulkumar@berkeley.edu>", "Rohan Kumar <rohankumar@berkeley.edu>"]
+description = "A public wrapper around the Substrate Mentor Plugins library"
+repository = "https://github.com/rahulk29/substrate_mentor_plugins"
+license = "BSD-3-Clause"
+
+[dependencies]
+inner = { package = "sub_calibre", git = "ssh://git@bwrcrepo.eecs.berkeley.edu/rohankumar/substrate_mentor_plugins.git", branch = "main", optional = true }
+
+
+[features]
+commercial = ["dep:inner"]
+
+default = []
