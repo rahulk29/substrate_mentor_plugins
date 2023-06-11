@@ -1,5 +1,5 @@
 [package]
-name = "abstract_lef"
+name = "sub_calibre"
 version = "0.0.2"
 edition = "2021"
 authors = ["Rahul Kumar <rahulkumar@berkeley.edu>", "Rohan Kumar <rohankumar@berkeley.edu>"]
